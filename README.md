@@ -259,6 +259,14 @@ Creator & Lead Developer — CanSat Live Telemetry System
 GitHub: https://github.com/Jack26-bit 
 LinkedIn: https://www.linkedin.com/in/neeraj-kiran-janakula-904643384
 
+Chinmay Musale
+Hardware Engineer and Project Manager - CanSat Live Telemetry System
+Github: https://github.com/chinmaymusale123
+LinkedIn: https://www.linkedin.com/in/chinmay-musale-97b23432a
+
+
+
+
 Developed as an open-source CanSat telemetry platform for education and research.
 
 # Support the Project
