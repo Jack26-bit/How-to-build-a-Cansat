@@ -266,7 +266,7 @@ LinkedIn: https://www.linkedin.com/in/chinmay-musale-97b23432a
 
 Parthiban S
 Backend Engineer & Ground System Engineer - CanSat Live Telemetry System
-Github: 
+Github: https://github.com/parthi1817
 LinkedIn: 
 
 
