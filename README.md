@@ -264,6 +264,11 @@ Hardware Engineer and Project Manager - CanSat Live Telemetry System
 Github: https://github.com/chinmaymusale123
 LinkedIn: https://www.linkedin.com/in/chinmay-musale-97b23432a
 
+Parthiban S
+Backend Engineer & Ground System Engineer - CanSat Live Telemetry System
+Github: 
+LinkedIn: 
+
 
 
 
