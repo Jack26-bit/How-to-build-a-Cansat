@@ -1,7 +1,6 @@
 import time
 import socket
-import network
-from micropython_tinygpsplus import TinyGPSPlusfrom micropython_tinygpsplus import TinyGPSPlus
+from micropython_tinygpsplus import TinyGPSPlus
 from machine import Pin, I2C, UART
 
 # ---------------- TIMER ----------------

@@ -1,0 +1,40 @@
+name: CanSat Software & Tools CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  verify:
+    name: Syntax & Unit Test Verification
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+
+    - name: Verify Python syntax across all project scripts
+      run: |
+        python -m py_compile main.py
+        python -m py_compile tools/log_analyzer.py
+        python -m py_compile "Test files/Battery_test.py"
+        python -m py_compile "Test files/BME280_TEST.py"
+        python -m py_compile "Test files/gps_test.py"
+        python -m py_compile "Test files/main_test.py"
+        python -m py_compile "Test files/MPU6050_TEST.py"
+        python -m py_compile "Test files/SD_CARD_TEST.py"
+        python -m py_compile "Test files/Test_Pico_W.py"
+        python -m py_compile "Imported libraries/bmp280.py"
+        python -m py_compile "Imported libraries/micropython_tinygpsplus.py"
+        python -m py_compile "Imported libraries/sdcard.py"
+
+    - name: Run Tooling Unit Tests
+      run: |
+        python -m unittest discover -s tests -p "test_*.py" -v

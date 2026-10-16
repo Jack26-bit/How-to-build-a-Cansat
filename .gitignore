@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MicroPython / Thonny
+.thonny/
+.micropy/
+
+# Environment and IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+# Mission Logs (flight test logs generated locally)
+*.log
+cansat_log.csv
